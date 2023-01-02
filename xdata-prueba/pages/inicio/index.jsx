@@ -4,12 +4,14 @@ import SideBar from '../../src/components/SideBar'
 
 const overView = () => {
   return (
+    <>
+      <SideBar />
+      <div className="w-[100vw] flex flex-col sm:flex-row sm:justify-end">
 
-    <div className="w-[100vw] flex flex-col md:flex-row">
-
-        <SideBar />
+        
         <OverView />
-    </div>
+      </div>
+    </>
   )
 }
 

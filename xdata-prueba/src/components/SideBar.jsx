@@ -13,7 +13,7 @@ import Subscription from '/img/subscription.svg';
 
 const SideBar = () => {
   return (
-    <div className='bg-gray-700 w-full sm:w-[20%] h-[100px] sm:h-[100vh]  p-6'>
+    <div className='bg-gray-700 w-full sm:w-[20%] h-[100px] sm:h-[100vh] p-6 fixed'>
         <div className='h-auto flex items-center mb-10' >      
             <Image
                 src={LoginLogo}
@@ -28,7 +28,7 @@ const SideBar = () => {
         <ItemBar texto={"Contactos"} img={Contactos} />
         <ItemBar texto={"Agentes"} img={Agentes} />
         <ItemBar texto={"Articulos"} img={Articulos} />
-        <hr className='my-3' />
+        <hr className='my-3 hidden sm:block' />
         <ItemBar texto={"Settings"} img={Settings} />
         <ItemBar texto={"Subscription"} img={Subscription} />
     </div>
