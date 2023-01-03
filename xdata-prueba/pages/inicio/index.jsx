@@ -1,6 +1,6 @@
-import React from 'react'
-import OverView from '../../src/components/OverView'
-import SideBar from '../../src/components/SideBar'
+import React from "react"
+import OverView from "../../src/components/OverView"
+import SideBar from "../../src/components/SideBar"
 
 const overView = () => {
   return (

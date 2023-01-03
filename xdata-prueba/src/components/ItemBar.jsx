@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 
 
 const ItemBar = ({texto, img}) => {
@@ -8,7 +8,7 @@ const ItemBar = ({texto, img}) => {
         <Image
             src={img}
             alt="Logo"
-            className='hidden sm:inline-block mx-auto lg:mx-0'
+            className="hidden sm:inline-block mx-auto lg:mx-0"
         />
         <span className="hidden lg:inline-block text-gray-400 font-semibold mx-5">{ texto }</span>
     </div>
